@@ -26,12 +26,12 @@ void getKey(GLFWwindow *window){
 //    glfwMakeContextCurrent(window);
 //    glViewport(0, 0, 500, 500);
 //    glfwSetFramebufferSizeCallback(window, framebuffer_size);
-//    
+//
 //    while(!glfwWindowShouldClose(window)){
 //        getKey(window);
 //        glClearColor(0.2, 0.1, 1, 1);
 //        glClear(GL_COLOR_BUFFER_BIT);
-//        
+//
 //        glfwSwapBuffers(window);
 //        glfwPollEvents();
 //    }
@@ -82,5 +82,6 @@ void getKey(GLFWwindow *window){
 //    exit(EXIT_SUCCESS);
 //    return 0;
 //}
+
 
 

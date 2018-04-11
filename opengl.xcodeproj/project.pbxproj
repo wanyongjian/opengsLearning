@@ -13,6 +13,7 @@
 		22CB4DC7207CDD8800EADFF0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CB4DC6207CDD8800EADFF0 /* OpenGL.framework */; };
 		22CB4DC9207CDDA900EADFF0 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CB4DC8207CDDA900EADFF0 /* libGLEW.2.1.0.dylib */; };
 		22CB4DCB207CDDBB00EADFF0 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CB4DCA207CDDBB00EADFF0 /* libglfw.3.2.dylib */; };
+		22CB4DCD207E4D7700EADFF0 /* hello_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CB4DCC207E4D7700EADFF0 /* hello_triangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		22CB4DC6207CDD8800EADFF0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		22CB4DC8207CDDA900EADFF0 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
 		22CB4DCA207CDDBB00EADFF0 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		22CB4DCC207E4D7700EADFF0 /* hello_triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello_triangle.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				22CB4DBE207CDD2A00EADFF0 /* main.cpp */,
+				22CB4DCC207E4D7700EADFF0 /* hello_triangle.cpp */,
 				21B546CC207DAF0E00ED5CD2 /* hello_window_clear1.cpp */,
 			);
 			path = opengl;
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CB4DCD207E4D7700EADFF0 /* hello_triangle.cpp in Sources */,
 				21B546CD207DAF0E00ED5CD2 /* hello_window_clear1.cpp in Sources */,
 				22CB4DBF207CDD2A00EADFF0 /* main.cpp in Sources */,
 				21B546D9207DD06100ED5CD2 /* glad.c in Sources */,
